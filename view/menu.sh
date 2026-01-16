@@ -41,14 +41,12 @@ show_menu(){
         while true; do
                 clear
         
-                printf "%b\n" "${MAGENTA}            ,,                   ,,    ,,                    ,,                                             ${NC}"
-                printf "%b\n" "${MAGENTA} .M\"\"\"bgd \`7MM                 \`7MM  \`7MM        .g8\"\"\"bgd \`7MM                          \`7MM               ${NC}"
-                printf "%b\n" "${MAGENTA},MI    \"Y   MM                   MM    MM      .dP'     \`M   MM                            MM               ${NC}"
-                printf "%b\n" "${MAGENTA}\`MMb.       MMpMMMb.   .gP\"Ya    MM    MM      dM'       \`   MMpMMMb.   .gP\"Ya   ,p6\"bo    MM  ,MP'${NC}"
-                printf "%b\n" "${MAGENTA}  \`YMMNq.   MM    MM  ,M'   Yb   MM    MM      MM            MM    MM  ,M'   Yb 6M'  OO    MM ;Y${NC}"
-                printf "%b\n" "${MAGENTA}.     \`MM   MM    MM  8M\"\"\"\"\"\"   MM    MM      MM.           MM    MM  8M\"\"\"\"\"\" 8M         MM;Mm${NC}"
-                printf "%b\n" "${MAGENTA}Mb     dM   MM    MM  YM.    ,   MM    MM      \`Mb.     ,'   MM    MM  YM.    , YM.    ,   MM \`Mb. ${NC}"
-                printf "%b\n" "${MAGENTA}P\"Ybmmd\"  .JMML  JMML. \`Mbmmd' .JMML..JMML.      \`\"bmmmd'  .JMML  JMML. \`Mbmmd'  YMbmd'  .JMML. YA.${NC}"
+                printf "%b\n" "${MAGENTA}   _____ __  __________    __       ___    __  ______  packet ${NC}"
+                printf "%b\n" "${MAGENTA}  / ___// / / / ____/ /   / /      /   |  / / / / __ \ /  _/ /_${NC}"
+                printf "%b\n" "${MAGENTA}  \__ \/ /_/ / __/ / /   / /      / /| | / / / / / / / / / / __/${NC}"
+                printf "%b\n" "${MAGENTA} ___/ / __  / /___/ /___/ /___   / ___ |/ /_/ / /_/ /_/ / / /_  ${NC}"
+                printf "%b\n" "${MAGENTA}/____/_/ /_/_____/_____/_____/  /_/  |_|\____/_____/___/ \__/  ${NC}"
+                printf "%b\n" "${MAGENTA}                                                                ${NC}"
 
                 printf "\n"
                 printf "\n"
