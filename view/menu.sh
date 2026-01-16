@@ -41,12 +41,12 @@ show_menu(){
         while true; do
                 clear
         
-                printf "%b\n" "${MAGENTA}   _____ __  __________    __       ___    __  ______  packet ${NC}"
-                printf "%b\n" "${MAGENTA}  / ___// / / / ____/ /   / /      /   |  / / / / __ \ /  _/ /_${NC}"
-                printf "%b\n" "${MAGENTA}  \__ \/ /_/ / __/ / /   / /      / /| | / / / / / / / / / / __/${NC}"
-                printf "%b\n" "${MAGENTA} ___/ / __  / /___/ /___/ /___   / ___ |/ /_/ / /_/ /_/ / / /_  ${NC}"
-                printf "%b\n" "${MAGENTA}/____/_/ /_/_____/_____/_____/  /_/  |_|\____/_____/___/ \__/  ${NC}"
-                printf "%b\n" "${MAGENTA}                                                                ${NC}"
+                printf "%b\n" "${MAGENTA}    _____ __  __________    __       ___    __  ______  __________ ${NC}"
+                printf "%b\n" "${MAGENTA}   / ___// / / / ____/ /   / /      /   |  / / / / __ \/  _/_  __/ ${NC}"
+                printf "%b\n" "${MAGENTA}   \__ \/ /_/ / __/ / /   / /      / /| | / / / / / / // /  / /    ${NC}"
+                printf "%b\n" "${MAGENTA}  ___/ / __  / /___/ /___/ /___   / ___ |/ /_/ / /_/ // /  / /     ${NC}"
+                printf "%b\n" "${MAGENTA} /____/_/ /_/_____/_____/_____/  /_/  |_|\____/_____/___/ /_/      ${NC}"
+                printf "%b\n" "${MAGENTA}                                                                   ${NC}"
 
                 printf "\n"
                 printf "\n"
