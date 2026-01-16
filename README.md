@@ -69,7 +69,7 @@ wget -O shell_check.zip https://github.com/ettory-automation/shell-audit-agent/a
 ➤ Com `unzip`:
 
 ```bash
-unzip shell_check.zip && rm -rf shell_check.zip
+unzip shell_check.zip && rm -rf shell_check.zip && mv shell-audit-agent-main shell_check
 ```
 
 > ⚠️ Nota: Se o servidor não possuir `unzip`, utilize o `Python` nativo para descompactar.
@@ -78,12 +78,14 @@ unzip shell_check.zip && rm -rf shell_check.zip
 
 ```bash
 python3 -m zipfile -e shell_check.zip .
+mv shell-audit-agent-main shell_check
 ```
 
 ➤ Com `Python` 2.x:
 
 ```bash
 python -c "import zipfile; zipfile.ZipFile('shell_check.zip', 'r').extractall('.')"
+mv shell-audit-agent-main shell_check
 ```
 
 ### 🔐 Permissões e Execução
