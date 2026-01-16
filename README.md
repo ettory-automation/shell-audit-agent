@@ -52,7 +52,7 @@ Até o momento, o Shell Audit Agent oferece as seguintes funcionalidades:
 Se o servidor possuir `git` instalado, basta executar:
 
 ```bash
-git clone https://github.com/ettory-automation/shell-audit-agent.git
+git clone https://github.com/ettory-automation/shell-audit-agent.git && mv shell-audit-agent shell_check
 ```
 
 ### 📥 Alternativa sem `git` (via `curl` ou `wget`):
@@ -69,7 +69,7 @@ wget -O shell_check.zip https://github.com/ettory-automation/shell-audit-agent/a
 ➤ Com `unzip`:
 
 ```bash
-unzip shell-audit-agent.zip && rm -rf shell-audit-agent.zip && cd shell-audit-agent-main
+unzip shell-audit-agent.zip && rm -rf shell-audit-agent.zip && mv shell-audit-agent-main shell_check
 ```
 
 > ⚠️ Nota: Se o servidor não possuir `unzip`, utilize o `Python` nativo para descompactar.
