@@ -79,6 +79,7 @@ unzip shell_check.zip && rm -rf shell_check.zip && mv shell-audit-agent-main she
 ```bash
 python3 -m zipfile -e shell_check.zip .
 mv shell-audit-agent-main shell_check
+rm -rf shell_check.zip
 ```
 
 ➤ Com `Python` 2.x:
@@ -86,6 +87,7 @@ mv shell-audit-agent-main shell_check
 ```bash
 python -c "import zipfile; zipfile.ZipFile('shell_check.zip', 'r').extractall('.')"
 mv shell-audit-agent-main shell_check
+rm -rf shell_check.zip
 ```
 
 ### 🔐 Permissões e Execução
