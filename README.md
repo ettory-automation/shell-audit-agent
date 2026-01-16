@@ -1,17 +1,17 @@
-# 🖥️ Shell Check
+# 🖥️ Shell Audit Agent
 
-O `Shell Check` é uma ferramenta de diagnóstico e auditoria desenvolvida em Shell Script, voltada para sistemas Linux-based. Seu objetivo é automatizar a coleta de dados do sistema operacional e apresentar outputs formatados e organizados, facilitando:
+O `Shell Audit Agent` é uma ferramenta de diagnóstico e auditoria desenvolvida em Shell Script, voltada para sistemas Linux-based. Seu objetivo é automatizar a coleta de dados do sistema operacional e apresentar outputs formatados e organizados, facilitando:
 
 - Análises de consumo de recursos computacionais
 - Verificações de configuração de serviços
 - Visualização de logs para auditorias técnicas
 - Identificação de gargalos em ambientes produtivos
 
-Com foco em praticidade e compatibilidade, o `Shell Check` pode ser executado em ambientes bare metal, virtuais ou containers leves, sem depender de dependências externas complexas.
+Com foco em praticidade e compatibilidade, o `Shell Audit Agent` pode ser executado em ambientes bare metal, virtuais ou containers leves, sem depender de dependências externas complexas.
 
 ### ⚙️ Funcionalidades disponíveis
 
-Até o momento, o Shell Check oferece as seguintes funcionalidades:
+Até o momento, o Shell Audit Agent oferece as seguintes funcionalidades:
 
 #### 📊 Análise de CPU:
 
@@ -52,7 +52,7 @@ Até o momento, o Shell Check oferece as seguintes funcionalidades:
 Se o servidor possuir `git` instalado, basta executar:
 
 ```bash
-git clone https://github.com/ettory-automation/shell_check.git
+git clone https://github.com/ettory-automation/shell-audit-agent.git
 ```
 
 ### 📥 Alternativa sem `git` (via `curl` ou `wget`):
@@ -60,8 +60,8 @@ git clone https://github.com/ettory-automation/shell_check.git
 Se o `git` não estiver disponível, use `curl` ou `wget` para baixar o projeto em formato `.zip`:
 
 ```bash
-curl -L -o shell_check.zip https://github.com/ettory-automation/shell_check/archive/refs/heads/main.zip || \
-wget -O shell_check.zip https://github.com/ettory-automation/shell_check/archive/refs/heads/main.zip 
+curl -L -o shell_check.zip https://github.com/ettory-automation/shell-audit-agent/archive/refs/heads/main.zip || \
+wget -O shell_check.zip https://github.com/ettory-automation/shell-audit-agent/archive/refs/heads/main.zip 
 ```
 
 #### 📂 Descompactando:
@@ -69,7 +69,7 @@ wget -O shell_check.zip https://github.com/ettory-automation/shell_check/archive
 ➤ Com `unzip`:
 
 ```bash
-unzip shell_check.zip && rm -rf shell_check.zip && mv shell_check-main shell_check
+unzip shell-audit-agent.zip && rm -rf shell-audit-agent.zip && cd shell-audit-agent-main
 ```
 
 > ⚠️ Nota: Se o servidor não possuir `unzip`, utilize o `Python` nativo para descompactar.
@@ -77,13 +77,13 @@ unzip shell_check.zip && rm -rf shell_check.zip && mv shell_check-main shell_che
 ➤ Com `Python` 3.x:
 
 ```bash
-python3 -m zipfile -e shell_check.zip .
+python3 -m zipfile -e shell-audit-agent.zip .
 ```
 
 ➤ Com `Python` 2.x:
 
 ```bash
-python -c "import zipfile; zipfile.ZipFile('shell_check.zip', 'r').extractall('.')"
+python -c "import zipfile; zipfile.ZipFile('shell-audit-agent.zip', 'r').extractall('.')"
 ```
 
 ### 🔐 Permissões e Execução
