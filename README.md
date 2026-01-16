@@ -97,5 +97,6 @@ chmod +x shell_check/view/menu.sh
 ➤ Execute o script com permissões elevadas para resultados mais precisos:
 
 ```bash
+cd shell_check/view
 sudo bash ./menu.sh
 ```
