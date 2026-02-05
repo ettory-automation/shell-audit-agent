@@ -17,6 +17,8 @@ O `Shell Audit Agent` é uma ferramenta de diagnóstico e auditoria desenvolvida
 
 Com foco em praticidade e compatibilidade, o `Shell Audit Agent` pode ser executado em ambientes bare metal, virtuais ou containers leves, sem depender de dependências externas complexas.
 
+<br>
+
 ### ⚙️ Funcionalidades disponíveis
 
 Até o momento, o Shell Audit Agent oferece as seguintes funcionalidades:
@@ -52,6 +54,8 @@ Até o momento, o Shell Audit Agent oferece as seguintes funcionalidades:
 - Checagem da versão atual do kernel
 - Notificação sobre versões mais recentes disponíveis
 - Compatível com ambientes Debian-like (ex.: Debian, Ubuntu Server) e RHEL-like (ex.: RedHat Enterprise Linux, Oracle Linux, CentOS Linux)
+
+<br>
 
 ## 📦 Download e Utilização
 
