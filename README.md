@@ -1,5 +1,13 @@
 # 🖥️ Shell Audit Agent
 
+<br>
+
+<p align="center">
+  <img src='https://raw.githubusercontent.com/ettory-automation/skill-icons/main/icons/Bash-Dark.svg' width='80' />
+<p>
+
+<br>
+
 O `Shell Audit Agent` é uma ferramenta de diagnóstico e auditoria desenvolvida em Shell Script, voltada para sistemas Linux-based. Seu objetivo é automatizar a coleta de dados do sistema operacional e apresentar outputs formatados e organizados, facilitando:
 
 - Análises de consumo de recursos computacionais
